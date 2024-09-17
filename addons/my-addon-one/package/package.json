@@ -117,6 +117,10 @@
   "ember-addon": {
     "version": 2,
     "type": "addon",
-    "main": "addon-main.cjs"
+    "main": "addon-main.cjs",
+    "app-js": {
+      "./components/my-test-title/component.js": "./dist/_app_/components/my-test-title/component.js",
+      "./components/my-test-title/template.js": "./dist/_app_/components/my-test-title/template.js"
+    }
   }
 }

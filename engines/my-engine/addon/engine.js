@@ -9,7 +9,7 @@ const Eng = Engine.extend({
 
   // Defines the route and service dependencies that the engine requires from the host app.
   dependencies: Object.freeze({
-    services: ['router'],
+    services: ['router', 'store'],
   }),
 });
 
